@@ -24,7 +24,7 @@ public class TournamentService : ITournamentService
         }
     }
 
-    public void MakeTournament()
+    public void RunTournament()
     {
         while (Champions.Count > 1)
         {

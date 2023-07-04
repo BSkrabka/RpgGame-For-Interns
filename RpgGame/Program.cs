@@ -8,4 +8,4 @@ using var serviceProvider = serviceCollection.BuildServiceProvider();
 
 var service = serviceProvider.GetService<ITournamentService>();
 
-service.MakeTournament();
+service?.RunTournament();

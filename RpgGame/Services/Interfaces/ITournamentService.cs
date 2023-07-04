@@ -5,5 +5,5 @@ namespace RpgGame.Services.Interfaces;
 public interface ITournamentService
 {
     void CreateTournamentQueue();
-    void MakeTournament();
+    void RunTournament();
 }
